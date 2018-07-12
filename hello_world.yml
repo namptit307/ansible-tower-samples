@@ -3,4 +3,3 @@
   tasks:
     - name: Hello Message
       commmand: echo "Hello world - Nguyen Hoai Nam"
-
