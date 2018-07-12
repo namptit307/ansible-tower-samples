@@ -2,4 +2,6 @@
   hosts: all
   tasks:
     - name: Hello Message
-      commmand: echo "Hello world - Nguyen Hoai Nam"
+      commmand: cat /etc/hostname
+      register: my_hostname
+
